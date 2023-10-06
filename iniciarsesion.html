@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./images/logofavicon.png" type="image/x-icon">
+</head>
+<body class="body-sesion">
+    <header>
+        <div class="navbar">
+            <div class="nav-computadora">
+                <nav class="menu-computadora">
+                    <img src="./images/spotifylogo.png" alt="spotify-logo">
+                   <ul class="menu" id="menu">
+                     <li><a class="nav-item" href="./index.html">Inicio</a></li>
+                     <li><a class="nav-item" href="">Descargar</a></li>
+                     <li><a class="nav-item" href="">Premium</a></li>
+                     <li><a class="nav-item" href="">Ayuda</a></li>
+                     <li><a class="nav-item" href="./registrar.html">Registrarse</a></li>
+                   </ul>
+                </nav>
+            </div>
+
+            <div class="nav-movil">
+                <input type="checkbox" id="toggle-menu" />
+                <img src="./images/spotifylogo.png" alt="spotify-logo">
+                <label
+                  for="toggle-menu"
+                  class="abrir-menu"
+                  data-open="☰"
+                  data-close="✖"
+                ></label>
+                <nav class="menu-movil">
+                  <ul class="lista-menu">
+                    <li><a class="nav-item" href="index.html">Inicio</a></li>
+                    <li><a class="nav-item" href="">Descargar</a></li>
+                    <li><a class="nav-item" href="">Premium</a></li>
+                    <li><a class="nav-item" href="">Ayuda</a></li>
+                    <li><a class="nav-item" href="registrar.html">Registrarse</a></li>
+                  </ul>
+                </nav>
+            </div>
+
+        </div>
+    </header>
+
+    <main class="contenido">
+        <div class="sesion-container">
+            <h2>Iniciar Sesión</h2>
+            <div class="metodos-container">
+                <button class="redes-sesion-container">
+                    <img src="./images/facebook-logo.png" alt="facebook-logo">
+                    <p>Acceder con Facebook</p>
+                </button>
+                <button class="redes-sesion-container">
+                     <img src="./images/gmail-logo.png" alt="gmail-logo">
+                      <p>Acceder con Gmail</p>
+                </button>
+                <button class="redes-sesion-container">
+                     <p>Iniciar sesion con Numero de telefono</p>
+               </button>
+            </div>
+
+                <form class="inputs-container">
+                    <input type="email" name="email" id="email" placeholder="Email de inicio de sesion" class="input-field" required autocomplete="off">
+                    <input type="password" name="password" id="password" placeholder="Contraseña" class="input-field" required autocomplete="off"> 
+                    <button class="sesion-button">Acceder</button>
+                </form>
+                <button class="sesion-button"><a class="sesion-a" href="./registrar.html">Registrate si no tenes cuenta</a></button>
+        </div>
+    </main>
+</body>
+<footer class="foot">
+    <img src="./images/spotifylogo.png" alt="spotify-logo">
+    <div class="compañia">
+        <h3 class="titulos-footer">Compañia</h3>
+        <p>Acerca de</p>
+        <p>Empleo</p>
+    </div>
+    <div class="comunidades">
+        <h3 class="titulos-footer">Para artistas</h3>
+        <p>Desarrolladores</p>
+        <p>Publicidad</p>
+        <p>Inversionistas</p>
+        <p>Proveedores</p>
+    </div>
+    <div class="enlaces">
+        <h3 class="titulos-footer">Enlaces útiles </h3>
+        <p>Ayuda</p>
+        <p>Reproductor web</p>
+        <p>App móvil gratis</p>
+    </div>
+</footer>
+</html>
